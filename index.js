@@ -1,7 +1,7 @@
 const keepAlive = require('./server.js')
 const aoijs = require("aoi.js")
 const bot = new aoijs.Bot({
-token: "MTExMDk4ODAwNjU4NTc5NDU5MA.Gi8lWs.PGzwRaBlXdrd00Z_K9BNd8c2SxAiL8kvbJMo6Q", //Discord Bot Token
+token: "MTExMTMxOTcwMzg3NzU4Njk3NA.Gvp-Hw.KQYthdjPE-5gLYRPTtxNbhIcuBHUv9_CTXXWZ0", //Discord Bot Token
 prefix: "?", //Discord Bot Prefix
 intents: "all" //Discord Intents
 })
@@ -570,7 +570,7 @@ code: '$channelSendMessage[$awaitData[log];{newEmbed: {author:$awaitData[guildna
 
 //guild join!
 bot.guildJoinCommand({
-channel: "973432628130770995",
+channel: "1111506837876002888",
 code: `$title[1;**JOINED $guild**]  $description[1;**GUILD ID - $guildID\nGUILD OWNER - $userTag[$ownerID]\nTOTAL MEMBERS - $membersCount\nSERVER CREATED - $creationDate[$guildID]\nTOTAL SERVERS - $serverCount\n[$createServerInvite[$guildID]]($createServerInvite[$guildID])**] $color[1;2F3136]` 
 })
 //guild leave
